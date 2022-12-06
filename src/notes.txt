@@ -1,0 +1,30 @@
+/* NOTES:
+
+    //START WITH sfc - stateless functional component
+
+    //OUTPUT TO LOG
+    const handleClickAgain = (name) => {
+        console.log('Hello ' + name);
+    }
+
+    //FUNTION INITIALIZED IN A BUTTON
+    <button onClick = {() => handleClickAgain('Ted')}>Click Me Again</button>
+
+    //HOOK IMPLIMENTATION:
+    const [name, setName] = useState('teddy') //called a hook
+    const [age, setAge] = useState(28)
+
+    const handleClick = () => {
+        setName('set to teddy')
+        setAge('now set to 22')
+    }
+    
+
+    <p>{ name } is { age } years old</p>
+
+
+
+
+
+
+*/
